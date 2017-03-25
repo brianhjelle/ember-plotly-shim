@@ -1,27 +1,24 @@
 # ember-plotly-shim
 
-This README outlines the details of collaborating on this Ember addon.
+ES6 accessible module for plotly.js within your Ember applications.
 
-## Installation
+## Usage
+* `ember install ember-plotly-shim`
+By default, the main plotly bundle will be used.  To use a partial bundle, add a line like the one below in your config/environment.js file
+```js
+// config.environment.js
+module.exports = function(environment) {
+  return {
+    plotly: {
+      // Options:
+      // basic, cartesian,
+      // geo, gl3d, gl2d,
+      // mapbox, finance
+      partialBundle: 'basic'
+    }
+  };
+}
+```
+For more information on partial bundles ->  https://github.com/plotly/plotly.js/blob/master/dist/README.md#bundle-information
 
-* `git clone <repository-url>` this repository
-* `cd ember-plotly-shim`
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+Note: At this time, manually picking commonjs modules as discussed here https://github.com/plotly/plotly.js/#modules is not supported
