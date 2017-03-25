@@ -4,6 +4,7 @@ ES6 accessible module for plotly.js within your Ember applications.
 
 ## Usage
 * `ember install ember-plotly-shim`
+
 By default, the main plotly bundle will be used.  To use a partial bundle, add a line like the one below in your config/environment.js file
 ```js
 // config.environment.js
