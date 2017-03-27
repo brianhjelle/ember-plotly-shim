@@ -7,12 +7,12 @@
     "plotly"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Brian Hjelle",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/brianhjelle/ember-plotly-shim",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

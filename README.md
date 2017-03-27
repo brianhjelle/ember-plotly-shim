@@ -1,7 +1,7 @@
 # ember-plotly-shim
 
 ES6 accessible module for plotly.js within your Ember applications.
-
+Warning: This is a work in progress
 ## Usage
 * `ember install ember-plotly-shim`
 
@@ -19,6 +19,10 @@ module.exports = function(environment) {
     }
   };
 }
+```
+Then import plotly like the line below in a js file:
+```js
+import Plotly from 'plotly';
 ```
 For more information on partial bundles ->  https://github.com/plotly/plotly.js/blob/master/dist/README.md#bundle-information
 
