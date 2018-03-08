@@ -27,3 +27,5 @@ import Plotly from 'plotly';
 For more information on partial bundles ->  https://github.com/plotly/plotly.js/blob/master/dist/README.md#bundle-information
 
 Note: At this time, manually picking commonjs modules as discussed here https://github.com/plotly/plotly.js/#modules is not supported
+
+This project is licensed under the [MIT License](LICENSE.md).
