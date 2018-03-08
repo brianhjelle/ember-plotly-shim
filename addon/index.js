@@ -1,3 +1,2 @@
-import Ember from 'ember';
-
+/* global Plotly */
 export default Plotly;
