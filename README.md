@@ -6,7 +6,7 @@ This addon is no longer actively developed.  But we'll still keep it here.
 
 ## Why is it being deprecated?
 
-After ember-auto-import was introduced, it is no longer necessary to shim plotly.js in order to get it to work with ember.  You can simply import the javascript file from the plotly.js bundle you need.
+After [ember-auto-import](https://github.com/ef4/ember-auto-import) was introduced, it is no longer necessary to shim plotly.js in order to get it to work with ember.  You can simply import the javascript file from the plotly.js bundle you need.
 
 ## How can I do this?
 
